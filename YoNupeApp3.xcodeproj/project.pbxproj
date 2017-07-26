@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8EF3DCC1F21BC8000C64042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DCB1F21BC8000C64042 /* AppDelegate.swift */; };
+		C8EF3DCE1F21BC8000C64042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DCD1F21BC8000C64042 /* ViewController.swift */; };
+		C8EF3DD11F21BC8000C64042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EF3DCF1F21BC8000C64042 /* Main.storyboard */; };
+		C8EF3DD31F21BC8000C64042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EF3DD21F21BC8000C64042 /* Assets.xcassets */; };
+		C8EF3DD61F21BC8000C64042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EF3DD41F21BC8000C64042 /* LaunchScreen.storyboard */; };
+		C8EF3DE11F21BC8100C64042 /* YoNupeApp3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DE01F21BC8100C64042 /* YoNupeApp3Tests.swift */; };
+		C8EF3DEC1F21BC8100C64042 /* YoNupeApp3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DEB1F21BC8100C64042 /* YoNupeApp3UITests.swift */; };
+		C8EF3DFC1F25122200C64042 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DFB1F25122200C64042 /* secondViewController.swift */; };
+		C8EF3DFE1F26BC3500C64042 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DFD1F26BC3500C64042 /* MyCustomTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8EF3DDD1F21BC8100C64042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF3DC01F21BC8000C64042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8EF3DC71F21BC8000C64042;
+			remoteInfo = YoNupeApp3;
+		};
+		C8EF3DE81F21BC8100C64042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8EF3DC01F21BC8000C64042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8EF3DC71F21BC8000C64042;
+			remoteInfo = YoNupeApp3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8EF3DC81F21BC8000C64042 /* YoNupeApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoNupeApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8EF3DCB1F21BC8000C64042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8EF3DCD1F21BC8000C64042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8EF3DD01F21BC8000C64042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8EF3DD21F21BC8000C64042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8EF3DD51F21BC8000C64042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8EF3DD71F21BC8000C64042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EF3DDC1F21BC8100C64042 /* YoNupeApp3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoNupeApp3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8EF3DE01F21BC8100C64042 /* YoNupeApp3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoNupeApp3Tests.swift; sourceTree = "<group>"; };
+		C8EF3DE21F21BC8100C64042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EF3DE71F21BC8100C64042 /* YoNupeApp3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoNupeApp3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8EF3DEB1F21BC8100C64042 /* YoNupeApp3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoNupeApp3UITests.swift; sourceTree = "<group>"; };
+		C8EF3DED1F21BC8100C64042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EF3DFB1F25122200C64042 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = secondViewController.swift; path = ../secondViewController.swift; sourceTree = "<group>"; };
+		C8EF3DFD1F26BC3500C64042 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8EF3DC51F21BC8000C64042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8EF3DD91F21BC8100C64042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8EF3DE41F21BC8100C64042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8EF3DBF1F21BC8000C64042 = {
+			isa = PBXGroup;
+			children = (
+				C8EF3DCA1F21BC8000C64042 /* YoNupeApp3 */,
+				C8EF3DDF1F21BC8100C64042 /* YoNupeApp3Tests */,
+				C8EF3DEA1F21BC8100C64042 /* YoNupeApp3UITests */,
+				C8EF3DC91F21BC8000C64042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8EF3DC91F21BC8000C64042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF3DC81F21BC8000C64042 /* YoNupeApp3.app */,
+				C8EF3DDC1F21BC8100C64042 /* YoNupeApp3Tests.xctest */,
+				C8EF3DE71F21BC8100C64042 /* YoNupeApp3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8EF3DCA1F21BC8000C64042 /* YoNupeApp3 */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF3DCB1F21BC8000C64042 /* AppDelegate.swift */,
+				C8EF3DFB1F25122200C64042 /* secondViewController.swift */,
+				C8EF3DFD1F26BC3500C64042 /* MyCustomTableViewCell.swift */,
+				C8EF3DCD1F21BC8000C64042 /* ViewController.swift */,
+				C8EF3DCF1F21BC8000C64042 /* Main.storyboard */,
+				C8EF3DD21F21BC8000C64042 /* Assets.xcassets */,
+				C8EF3DD41F21BC8000C64042 /* LaunchScreen.storyboard */,
+				C8EF3DD71F21BC8000C64042 /* Info.plist */,
+			);
+			path = YoNupeApp3;
+			sourceTree = "<group>";
+		};
+		C8EF3DDF1F21BC8100C64042 /* YoNupeApp3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF3DE01F21BC8100C64042 /* YoNupeApp3Tests.swift */,
+				C8EF3DE21F21BC8100C64042 /* Info.plist */,
+			);
+			path = YoNupeApp3Tests;
+			sourceTree = "<group>";
+		};
+		C8EF3DEA1F21BC8100C64042 /* YoNupeApp3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF3DEB1F21BC8100C64042 /* YoNupeApp3UITests.swift */,
+				C8EF3DED1F21BC8100C64042 /* Info.plist */,
+			);
+			path = YoNupeApp3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8EF3DC71F21BC8000C64042 /* YoNupeApp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8EF3DF01F21BC8100C64042 /* Build configuration list for PBXNativeTarget "YoNupeApp3" */;
+			buildPhases = (
+				C8EF3DC41F21BC8000C64042 /* Sources */,
+				C8EF3DC51F21BC8000C64042 /* Frameworks */,
+				C8EF3DC61F21BC8000C64042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoNupeApp3;
+			productName = YoNupeApp3;
+			productReference = C8EF3DC81F21BC8000C64042 /* YoNupeApp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8EF3DDB1F21BC8100C64042 /* YoNupeApp3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8EF3DF31F21BC8100C64042 /* Build configuration list for PBXNativeTarget "YoNupeApp3Tests" */;
+			buildPhases = (
+				C8EF3DD81F21BC8100C64042 /* Sources */,
+				C8EF3DD91F21BC8100C64042 /* Frameworks */,
+				C8EF3DDA1F21BC8100C64042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8EF3DDE1F21BC8100C64042 /* PBXTargetDependency */,
+			);
+			name = YoNupeApp3Tests;
+			productName = YoNupeApp3Tests;
+			productReference = C8EF3DDC1F21BC8100C64042 /* YoNupeApp3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8EF3DE61F21BC8100C64042 /* YoNupeApp3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8EF3DF61F21BC8100C64042 /* Build configuration list for PBXNativeTarget "YoNupeApp3UITests" */;
+			buildPhases = (
+				C8EF3DE31F21BC8100C64042 /* Sources */,
+				C8EF3DE41F21BC8100C64042 /* Frameworks */,
+				C8EF3DE51F21BC8100C64042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8EF3DE91F21BC8100C64042 /* PBXTargetDependency */,
+			);
+			name = YoNupeApp3UITests;
+			productName = YoNupeApp3UITests;
+			productReference = C8EF3DE71F21BC8100C64042 /* YoNupeApp3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8EF3DC01F21BC8000C64042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "William Janey";
+				TargetAttributes = {
+					C8EF3DC71F21BC8000C64042 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					C8EF3DDB1F21BC8100C64042 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8EF3DC71F21BC8000C64042;
+					};
+					C8EF3DE61F21BC8100C64042 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8EF3DC71F21BC8000C64042;
+					};
+				};
+			};
+			buildConfigurationList = C8EF3DC31F21BC8000C64042 /* Build configuration list for PBXProject "YoNupeApp3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8EF3DBF1F21BC8000C64042;
+			productRefGroup = C8EF3DC91F21BC8000C64042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8EF3DC71F21BC8000C64042 /* YoNupeApp3 */,
+				C8EF3DDB1F21BC8100C64042 /* YoNupeApp3Tests */,
+				C8EF3DE61F21BC8100C64042 /* YoNupeApp3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8EF3DC61F21BC8000C64042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF3DD61F21BC8000C64042 /* LaunchScreen.storyboard in Resources */,
+				C8EF3DD31F21BC8000C64042 /* Assets.xcassets in Resources */,
+				C8EF3DD11F21BC8000C64042 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8EF3DDA1F21BC8100C64042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8EF3DE51F21BC8100C64042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8EF3DC41F21BC8000C64042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF3DCE1F21BC8000C64042 /* ViewController.swift in Sources */,
+				C8EF3DFC1F25122200C64042 /* secondViewController.swift in Sources */,
+				C8EF3DFE1F26BC3500C64042 /* MyCustomTableViewCell.swift in Sources */,
+				C8EF3DCC1F21BC8000C64042 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8EF3DD81F21BC8100C64042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF3DE11F21BC8100C64042 /* YoNupeApp3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8EF3DE31F21BC8100C64042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF3DEC1F21BC8100C64042 /* YoNupeApp3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8EF3DDE1F21BC8100C64042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8EF3DC71F21BC8000C64042 /* YoNupeApp3 */;
+			targetProxy = C8EF3DDD1F21BC8100C64042 /* PBXContainerItemProxy */;
+		};
+		C8EF3DE91F21BC8100C64042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8EF3DC71F21BC8000C64042 /* YoNupeApp3 */;
+			targetProxy = C8EF3DE81F21BC8100C64042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8EF3DCF1F21BC8000C64042 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8EF3DD01F21BC8000C64042 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8EF3DD41F21BC8000C64042 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8EF3DD51F21BC8000C64042 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8EF3DEE1F21BC8100C64042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8EF3DEF1F21BC8100C64042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8EF3DF11F21BC8100C64042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoNupeApp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.YoNupeApp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C8EF3DF21F21BC8100C64042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoNupeApp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.YoNupeApp3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C8EF3DF41F21BC8100C64042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoNupeApp3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.YoNupeApp3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoNupeApp3.app/YoNupeApp3";
+			};
+			name = Debug;
+		};
+		C8EF3DF51F21BC8100C64042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoNupeApp3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.YoNupeApp3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoNupeApp3.app/YoNupeApp3";
+			};
+			name = Release;
+		};
+		C8EF3DF71F21BC8100C64042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YoNupeApp3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.YoNupeApp3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YoNupeApp3;
+			};
+			name = Debug;
+		};
+		C8EF3DF81F21BC8100C64042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YoNupeApp3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.will.YoNupeApp3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YoNupeApp3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8EF3DC31F21BC8000C64042 /* Build configuration list for PBXProject "YoNupeApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EF3DEE1F21BC8100C64042 /* Debug */,
+				C8EF3DEF1F21BC8100C64042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8EF3DF01F21BC8100C64042 /* Build configuration list for PBXNativeTarget "YoNupeApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EF3DF11F21BC8100C64042 /* Debug */,
+				C8EF3DF21F21BC8100C64042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8EF3DF31F21BC8100C64042 /* Build configuration list for PBXNativeTarget "YoNupeApp3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EF3DF41F21BC8100C64042 /* Debug */,
+				C8EF3DF51F21BC8100C64042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8EF3DF61F21BC8100C64042 /* Build configuration list for PBXNativeTarget "YoNupeApp3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EF3DF71F21BC8100C64042 /* Debug */,
+				C8EF3DF81F21BC8100C64042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8EF3DC01F21BC8000C64042 /* Project object */;
+}
