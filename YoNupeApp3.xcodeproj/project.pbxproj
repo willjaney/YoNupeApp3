@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8099B5A1F2FFC2600DBA870 /* ListOfPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8099B591F2FFC2600DBA870 /* ListOfPositionViewController.swift */; };
+		C8D542DF1F296F19008F0FDF /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D542DE1F296F19008F0FDF /* PostViewController.swift */; };
+		C8D542E11F298C6D008F0FDF /* YoNupeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D542E01F298C6D008F0FDF /* YoNupeModel.swift */; };
+		C8D542E31F2BA2D8008F0FDF /* YoNupeDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D542E21F2BA2D8008F0FDF /* YoNupeDataProvider.swift */; };
 		C8EF3DCC1F21BC8000C64042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DCB1F21BC8000C64042 /* AppDelegate.swift */; };
 		C8EF3DCE1F21BC8000C64042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DCD1F21BC8000C64042 /* ViewController.swift */; };
 		C8EF3DD11F21BC8000C64042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EF3DCF1F21BC8000C64042 /* Main.storyboard */; };
@@ -14,7 +18,6 @@
 		C8EF3DD61F21BC8000C64042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EF3DD41F21BC8000C64042 /* LaunchScreen.storyboard */; };
 		C8EF3DE11F21BC8100C64042 /* YoNupeApp3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DE01F21BC8100C64042 /* YoNupeApp3Tests.swift */; };
 		C8EF3DEC1F21BC8100C64042 /* YoNupeApp3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DEB1F21BC8100C64042 /* YoNupeApp3UITests.swift */; };
-		C8EF3DFC1F25122200C64042 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DFB1F25122200C64042 /* secondViewController.swift */; };
 		C8EF3DFE1F26BC3500C64042 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF3DFD1F26BC3500C64042 /* MyCustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8099B591F2FFC2600DBA870 /* ListOfPositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfPositionViewController.swift; sourceTree = "<group>"; };
+		C8D542DE1F296F19008F0FDF /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		C8D542E01F298C6D008F0FDF /* YoNupeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoNupeModel.swift; sourceTree = "<group>"; };
+		C8D542E21F2BA2D8008F0FDF /* YoNupeDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoNupeDataProvider.swift; sourceTree = "<group>"; };
 		C8EF3DC81F21BC8000C64042 /* YoNupeApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoNupeApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EF3DCB1F21BC8000C64042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8EF3DCD1F21BC8000C64042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +56,6 @@
 		C8EF3DE71F21BC8100C64042 /* YoNupeApp3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoNupeApp3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EF3DEB1F21BC8100C64042 /* YoNupeApp3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoNupeApp3UITests.swift; sourceTree = "<group>"; };
 		C8EF3DED1F21BC8100C64042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8EF3DFB1F25122200C64042 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = secondViewController.swift; path = ../secondViewController.swift; sourceTree = "<group>"; };
 		C8EF3DFD1F26BC3500C64042 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,10 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				C8EF3DCB1F21BC8000C64042 /* AppDelegate.swift */,
-				C8EF3DFB1F25122200C64042 /* secondViewController.swift */,
+				C8099B591F2FFC2600DBA870 /* ListOfPositionViewController.swift */,
 				C8EF3DFD1F26BC3500C64042 /* MyCustomTableViewCell.swift */,
+				C8D542DE1F296F19008F0FDF /* PostViewController.swift */,
 				C8EF3DCD1F21BC8000C64042 /* ViewController.swift */,
 				C8EF3DCF1F21BC8000C64042 /* Main.storyboard */,
+				C8D542E01F298C6D008F0FDF /* YoNupeModel.swift */,
+				C8D542E21F2BA2D8008F0FDF /* YoNupeDataProvider.swift */,
 				C8EF3DD21F21BC8000C64042 /* Assets.xcassets */,
 				C8EF3DD41F21BC8000C64042 /* LaunchScreen.storyboard */,
 				C8EF3DD71F21BC8000C64042 /* Info.plist */,
@@ -266,9 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8EF3DCE1F21BC8000C64042 /* ViewController.swift in Sources */,
-				C8EF3DFC1F25122200C64042 /* secondViewController.swift in Sources */,
 				C8EF3DFE1F26BC3500C64042 /* MyCustomTableViewCell.swift in Sources */,
+				C8D542E11F298C6D008F0FDF /* YoNupeModel.swift in Sources */,
+				C8D542E31F2BA2D8008F0FDF /* YoNupeDataProvider.swift in Sources */,
+				C8099B5A1F2FFC2600DBA870 /* ListOfPositionViewController.swift in Sources */,
 				C8EF3DCC1F21BC8000C64042 /* AppDelegate.swift in Sources */,
+				C8D542DF1F296F19008F0FDF /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +527,7 @@
 				C8EF3DF21F21BC8100C64042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8EF3DF31F21BC8100C64042 /* Build configuration list for PBXNativeTarget "YoNupeApp3Tests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +536,7 @@
 				C8EF3DF51F21BC8100C64042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8EF3DF61F21BC8100C64042 /* Build configuration list for PBXNativeTarget "YoNupeApp3UITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +545,7 @@
 				C8EF3DF81F21BC8100C64042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

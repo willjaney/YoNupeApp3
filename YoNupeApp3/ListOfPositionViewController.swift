@@ -11,7 +11,7 @@ import UIKit
 
 //let tintColor = UIColor()
 
-class SecondViewController: UIViewController {
+class ListOfPositionViewController: UIViewController {
     @IBAction func backButtonPress(_ sender: Any) {
 
           dismiss(animated: true, completion: nil)
@@ -23,16 +23,27 @@ class SecondViewController: UIViewController {
 
     }
     
-    let NupeColor1 = UIColor(colorLiteralRed: 254/255.0, green: 246/255.0, blue: 224/255.0, alpha: 1.0)
+    
+    @IBOutlet weak var usernameTitleLabel: UILabel!
+    
+    @IBOutlet weak var latestContentPosted: UILabel!
+    
+    @IBOutlet weak var notificationNumber: UIImageView!
+    
+    @IBOutlet weak var userProfilePicture: UIImageView!
+    
+    
+    let KremeNupeColor1 = UIColor(colorLiteralRed: 254/255.0, green: 255/255.0, blue: 240/255.0, alpha: 1.0)
+    let KrimsonNupeColor2 = UIColor(colorLiteralRed: 130/255.0, green: 0/255.0, blue: 31/255.0, alpha: 1.0)
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Navigation bar setup
-        navigationController?.navigationBar.barTintColor = UIColor(red: 137/255.0, green: 37/255.0, blue: 47/255.0, alpha: 1.0)
+        navigationController?.navigationBar.barTintColor = KremeNupeColor1
 //        navigationController?.navigationBar.tintColor = .white
-        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : KremeNupeColor1]
         self.title = "Executive Board"
         
     
@@ -49,7 +60,7 @@ class SecondViewController: UIViewController {
 }
 var EBoardpositions = ["Polemarch" , "Vice-Polemarch" , "Keeper of Records" , "Keeper of Exchequer" , "Board of Directors"]
 
-extension SecondViewController: UITableViewDataSource {
+extension ListOfPositionViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return EBoardpositions.count
@@ -68,14 +79,15 @@ extension SecondViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "celltwo", for: indexPath)
         cell.textLabel?.text = EBoardpositions[indexPath.section]
         cell.textLabel?.font = UIFont.systemFont(ofSize: 36)
-        cell.backgroundColor = NupeColor1
+        cell.backgroundColor = KremeNupeColor1
+        cell.textLabel?.textColor = KrimsonNupeColor2
         
         return cell
 }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
-        return 200.0;//Choose your custom row height
+        return 125.0;//Choose your custom row height
     }
     
     
@@ -85,9 +97,13 @@ extension SecondViewController: UITableViewDataSource {
 
 }
 
-extension SecondViewController: UITableViewDelegate {
+extension ListOfPositionViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
             }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let ThirdVC = storyboard?.instantiateViewController(withIdentifier: "ThirdVCNavController") as! UINavigationController
+        present(ThirdVC, animated: true, completion: nil)
+    }
     
 
 

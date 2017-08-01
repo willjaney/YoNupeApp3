@@ -6,13 +6,17 @@
 //  Copyright © 2017 William Janey. All rights reserved.
 //
 
+
+//C - in MVC the Controller
 // respective notes, meeting dates,
 
 import UIKit
 
 class ViewController: UIViewController {
     
-    
+    let KremeNupeColor1 = UIColor(colorLiteralRed: 254/255.0, green: 255/255.0, blue: 240/255.0, alpha: 1.0)
+    let KrimsonNupeColor2 = UIColor(colorLiteralRed: 130/255.0, green: 0/255.0, blue: 31/255.0, alpha: 1.0)
+
     @IBAction func nextPageOption(_ sender: Any) {
         
         //        var button = UIButton ()
@@ -21,10 +25,11 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.navigationBar.barTintColor = UIColor(red: 137/255.0, green: 37/255.0, blue: 47/255.0, alpha: 1.0)
+        navigationController?.navigationBar.barTintColor = KrimsonNupeColor2
         //        navigationController?.navigationBar.tintColor = .white
-        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
-        self.title = "Yo! NUPE!"
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : KremeNupeColor1]
+        self.title = "Yo"
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -63,15 +68,17 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MyCustomTableViewCell
         cell.textLabel?.text = headers[indexPath.section]
         cell.textLabel?.font = UIFont.systemFont(ofSize: 36)
-        cell.textLabel?.font.fontDescrip
-        
+        cell.textLabel?.textColor = KrimsonNupeColor2
+        cell.backgroundColor = KremeNupeColor1
+//        cell.textLabel?.font  = UIFont(name: "rterterte", size: 33.0)
+//        
         
         return cell
         
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
-        return 200.0;//Choose your custom row height
+        return 125.0;//Choose your custom row height
     }
     
     //        let cell = UITableViewCell()
